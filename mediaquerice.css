@@ -1,0 +1,65 @@
+@media screen  and (max-width: 600px){
+    #showcase{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color:  hsl(234, 29%, 20%);
+    }
+    
+    
+#container_1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-flow: column-reverse;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+   justify-content: space-evenly;
+}
+
+.all p{
+margin: 5px;
+width: 400px;
+font-size: 20px;
+}
+
+.icon p{
+    width: 350px;
+    font-size: 20px;
+}
+
+.pics img{
+    width: 100%;
+    height: auto;
+}
+
+.email h3{
+    font-size: 30px;
+}
+
+.email input{
+    text-align:start;
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.button input{
+    background-color:  hsl(234, 29%, 20%);
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+}
