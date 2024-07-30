@@ -1,67 +1,75 @@
 @media screen  and (max-width: 600px){
     #showcase{
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        height: auto;
-        background-color:  hsl(234, 29%, 20%);
-    }
+        }
     
     
 #container_1{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
-    width: 500px;
     flex-flow: column-reverse;
-    height: auto;
-    border-radius: 20px;
     align-items: center;
-    background-color: white;
    justify-content: space-evenly;
 }
 
+.container_2{
+    height: fit-content;
+} 
+
 .all p{
-margin-left: 10px;
-width: 400px;
+color: hsl(231, 7%, 60%);
+width: 300px;
 font-size: 20px;
 }
 
+.icon{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .icon p{
-    width: 350px;
+    color: hsl(231, 7%, 60%);
+    width: 300px;
     font-size: 15px;
 }
 
 .pics img{
-    width: 100%;
-    height: auto;
+    width: fit-content;
+
 }
 
 .email h3{
     font-size: 30px;
-    margin-left: 10px;
 }
 
 
 .icon{
     display: flex;
-    justify-content: space-around;
-    margin-left: 10px;
 }
 
 .email input{
     text-align:start;
     height: 40px;
     font-size: 20px;
-    width: 250px;
+    width: 220px;
     padding: 10px;
     margin-left: 10px;
 }
 
-.button input{
+.btn{
     background-color:  hsl(234, 29%, 20%);
     border-radius: 5px;
     border: none;
+    width: 250px;
     margin-left: 10px;
 }
 }
